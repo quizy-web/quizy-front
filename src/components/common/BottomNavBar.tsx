@@ -1,5 +1,5 @@
+import { NavBarType } from '@/types';
 import { FaHome, FaGamepad, FaSearch, FaUser } from 'react-icons/fa';
-import { NavBarType } from '../../types/NavBarType';
 
 const BottomNavBar = ({ activeTab, setActiveTab }: NavBarType) => {
   const tabs = [

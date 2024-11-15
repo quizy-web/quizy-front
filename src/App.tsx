@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-import BottomNavBar from './components/common/BottomNavBar';
-import { MainPage } from './pages/MainPage';
-import { GamePage } from './pages/GamePage';
-import { MyPage } from './pages/MyPage';
-import { SearchPage } from './pages/SearchPage';
+
+import { BottomNavBar } from './components';
+import { GamePage, MainPage, MyPage, SearchPage } from './pages';
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
